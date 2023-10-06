@@ -1,0 +1,34 @@
+<pelicules>
+
+    <pelicula>
+        <titulo>El Padrino</titulo>
+        <director vivo="N">Francis Ford Coppola</director>
+        <año>1972</año>
+        <generos>
+            <genero>Crimen</genero>
+            <genero>Drama</genero>
+        </generos>
+        <actores>
+            <actor>Marlon Brando</actor>
+            <actor>Al Pacino</actor>
+            <actor>James Caan</actor>
+        </actores>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Forrest Gump</titulo>
+        <director vivo="S">Robert Zemeckis</director>
+        <año>1994</año>
+        <generos>
+            <genero>Comedia</genero>
+            <genero>Drama</genero>
+            <genero>Romance</genero>
+        </generos>
+        <actores>
+            <actor>Tom Hanks</actor>
+            <actor>Robin Wright</actor>
+            <actor>Gary Sinise</actor>
+        </actores>
+    </pelicula>
+
+</pelicules>

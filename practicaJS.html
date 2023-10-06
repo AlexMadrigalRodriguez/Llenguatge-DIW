@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaJS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body class="container pt-4">
+
+  <h3 class="col-md-5 mx-auto pb-5">Formulari validació JavaScript</h3>
+
+    <form class="row g-3 needs-validation" method="get" action="./img/648140ed138441564424d0281cbf396a.jpg" novalidate>
+        <div class="col-md-4">
+          <label for="nom" class="form-label">Nom</label>
+          <input type="text" class="form-control" id="nom" required>
+          <div id="error-nom" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-4">
+          <label for="llin1" class="form-label">Primer llinatge</label>
+          <input type="text" class="form-control" id="llin1" required>
+          <div id="error-llin1" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-4">
+          <label for="llin2" class="form-label">Segon llinatge</label>
+          <input type="text" class="form-control" id="llin2">
+          <div id="error-llin2" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-4">
+          <label for="usuari" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="usuari" aria-describedby="inputGroupPrepend" required>
+            <div id="error-usuari" class="invalid-feedback"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" required>
+          <div id="error-password" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-3">
+          <label for="pais" class="form-label">Pais</label>
+          <select class="form-select" id="pais" required>
+            <option selected disabled value="">Selecciona</option>
+            <option value="1">Alemnya</option>
+            <option value="2">Francia</option>
+            <option value="3">Italia</option>
+            <option value="4">Espanya</option>
+            <option value="5">Mordor</option>
+          </select>
+          <div class="invalid-feedback">
+            Selecciona un pais
+          </div>
+        </div>
+        <div class="col-md-2">
+          <label for="cp" class="form-label">CP</label>
+          <input type="text" class="form-control" id="cp" value="" required>
+          <div id="error-cp" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-3">
+          <label for="dni" class="form-label">DNI</label>
+          <input type="text" class="form-control" id="dni" value="" required>
+          <div id="error-dni" class="invalid-feedback"></div>
+        </div>
+        <div class="col-md-4">
+          <label for="captcha" class="form-label">Captcha</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="ResultadoCaptcha"></span>
+            <input type="text" class="form-control" id="captcha" aria-describedby="inputGroupPrepend" required>
+            <div id="error-captcha" class="invalid-feedback"></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Acceptar els <a href="https://www.youtube.com/watch?v=jgv34QgWn2E" target="_blank">termes i condicons</a>
+            </label>
+            <div class="invalid-feedback">
+              Has d'acceptar els termes i condicions per continuar.
+            </div>
+          </div>
+        </div>
+        <div class="col-1 mx-auto">
+          <button class="btn btn-primary" type="submit">Envia</button>
+        </div>
+      </form>
+
+
+      <a href="./index.html">Tornar a l'index</a>
+      <script src="./practicaJS.js"></script>
+</body>
+</html>

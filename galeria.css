@@ -1,0 +1,69 @@
+section{
+    background-image: url(./img/topg.jpg);
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
+}
+
+.emoji{
+background-color: rgb(252, 247, 0);
+width: 17%;
+padding-top: 17px;
+padding-bottom: 17px;
+text-align: center;
+transition: 0.5s;
+}
+
+.emoji:hover{
+    background-color: aqua;
+}
+
+nav{
+    text-align: center;
+    position: fixed;
+top: 0;
+width: 99%;
+background-color: aquamarine;
+z-index: 99;
+}
+
+section{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(105, 27, 53);
+    margin: 80px 12% 0px 12%;
+}
+
+#raya{
+    height: 3px;
+    background-color: rgb(252, 247, 0);
+    margin: 0 auto;
+    width: 30%;
+}
+
+img{
+    width: 25%;
+    margin: 20px;
+    border: rgb(252, 247, 0) 5px solid;
+    box-shadow: 3px 3px 5px 4px rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: filter 0.5s;
+}
+
+img:hover{
+    opacity: 20%;
+    filter: blur(3px);
+}
+
+#nombre{
+    padding-left:81%;
+}
+
+html{
+    background-color: aquamarine;
+}
+
+h4{
+    color: yellow;
+    font-family: 'Nunito', sans-serif;
+}

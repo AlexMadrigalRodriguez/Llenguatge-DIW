@@ -1,0 +1,164 @@
+body{
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(135deg, aquamarine, darkcyan);
+}
+
+nav{
+    background-color: thistle;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+}
+
+.data{
+    text-shadow: 1px 1px 1px grey;
+}
+
+input{
+    border-radius: 10px;
+    border-color: white;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+display: flex;
+justify-content: center;
+}
+
+#boton{
+    display: block;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(121, 110, 110);
+    border: white;
+}
+
+div a{
+    margin: 25px;
+}
+
+#boton:hover{
+    color: aquamarine;
+}
+
+#jedi{
+    color: darkcyan;
+    width: 17%;
+padding: 17px;
+text-align: center;
+text-shadow: 1px 1px 1px black;
+font-size: 39px;
+}
+
+.fa-solid{
+    color: darkcyan;
+}
+
+.fa-solid:hover{
+color: aquamarine;
+}
+
+
+#cercar{
+    display: flex;
+font-size: 19px;
+border-radius: 10px;
+height: 40px;
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    padding-left: 14px;
+}
+
+.primer{
+    padding-top: 18px;
+}
+
+aside{
+    width: 100%;
+    background-image: url(./img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data{
+    color: #3498db;
+    text-shadow: 1pc black;
+}
+
+section{
+    justify-content: left;
+}
+
+.wrapper {
+    padding-bottom: 30px;
+}
+
+.divider {
+    position: relative;
+    margin-top: 40px;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
+}
+
+.resum {
+    border-left: 3px solid #bdc3c7;
+    padding-left: 10px;
+}
+
+#oculto{
+    display: none;
+}
+
+@media (max-width: 768px){
+    aside{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .right{
+        display: none;
+    }
+
+    #oculto{
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+    }
+}

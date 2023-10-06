@@ -1,0 +1,54 @@
+{
+    "barcos":[
+        {
+            "codi" : "A5",
+            "color": "pink",
+            "longitud": 5,
+            "posicion":{
+                "orientacion": "H",
+                "col": 2,
+                "fila": 4
+            }
+        },
+        {
+            "codi" : "A3",
+            "color": "pink",
+            "longitud": 3,
+            "posicion":{
+                "orientacion": "V",
+                "col": 9,
+                "fila": 4
+            }
+        },
+        {
+            "codi" : "A2",
+            "color": "pink",
+            "longitud": 2,
+            "posicion":{
+                "orientacion": "V",
+                "col": 6,
+                "fila": 8
+            }
+        },
+        {
+            "codi" : "B3",
+            "color": "pink",
+            "longitud": 3,
+            "posicion":{
+                "orientacion": "H",
+                "col": 1,
+                "fila": 9
+            }
+        },
+        {
+            "codi" : "A4",
+            "color": "pink",
+            "longitud": 4,
+            "posicion":{
+                "orientacion": "H",
+                "col": 3,
+                "fila": 1
+            }
+        }
+    ]
+}

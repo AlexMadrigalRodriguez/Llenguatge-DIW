@@ -1,0 +1,35 @@
+section{
+    color: green;
+    background-color: rgb(196, 195, 135);
+    width: 75;
+}
+
+/*comentari */
+
+span {
+    color: rgb(195, 0, 255);
+}
+
+#pWeb{
+    color: blue;
+}
+
+.vermell{
+    color: red;
+}
+
+.subrajat{
+    text-decoration: underline;
+}
+
+h2,h3{
+background-color: aquamarine;
+}
+
+h3{
+    width: 25%;
+}
+
+section p{
+    text-decoration: underline;
+}

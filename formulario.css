@@ -1,0 +1,24 @@
+input[required]{
+    background-color: lightcoral
+}
+
+h1:hover{
+    color: red;
+}
+
+h1::first-letter{
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sexe label:nth-of-type(3){
+    color: blueviolet;
+}
+
+input[type ="submit"]{
+    font-weight: bolder;
+}
+
+input[type ="reset"], input[type="reset"]{
+    font-weight: bolder;
+}

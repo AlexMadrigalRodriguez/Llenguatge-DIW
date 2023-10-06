@@ -1,0 +1,71 @@
+/* 1 - fer que els h1 de classe mayusc es posin en majúscules i subratjats */
+h1.mayusc{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* 2 - fer que els h2 siguin d'un color vermell rgb*/
+h2{
+    color: red;
+}
+/* 3 - fer que els div de la classe "meitat" ocupin un 50% del parent*/ 
+div.meitat{
+    width: 50%;
+}
+/* 4 - fer que l'element amb id "lorem1" canvii de color a "lightseagreen"quan ens posem damunt d'ell */
+#lorem1:hover{
+    color: lightseagreen;
+}
+/* 5 - fer que els article que estiguin dins un section amb id "seccio1" tinguin un color de fons blau hexadecimal*/
+section#seccio1 article{
+    background-color: #0000FF;
+}
+/* 6 - fer que els div amb classe "separador" tenguin un border superior de 2px black i un margin vertical de 10px*/
+div.separador{
+    border-top: 2px black;
+    margin: 10px 0px;
+}
+/* 7 - fer que el segon article dins un section sigui de color rosa clar*/ 
+section article:nth-of-type(2){
+    color: rosybrown;
+}
+/* 8 - fer que els label de dins un div tenguin un padding vertical de 15px*/
+div label{
+    padding: 15px 0px;
+}
+/* 9 - canviar l'estil de la llista a lletres gregues (alpha, beta...)*/ 
+ol li{
+    list-style-type: g;
+}
+/* 10 - fer que el tercer element de la llista sigui de color verd hexadecimal*/
+ol li:nth-last-of-type(1){
+    color: #008f39 ;
+}
+/* 11 - fer que els elements de la classe "centrat" estiguin centrats*/
+.centrat{
+    margin: auto;
+}
+/* 12 - fer que els p de class dreta tenguin el seu contingut alineat a la dreta*/ 
+p.dreta{
+    padding-left: 100%;
+}
+/* 13 - fer que el body ocupi un 90% del viewport, fons lightyellow i centrat*/
+body{
+    width: 90vw;
+    height: 90vw;
+    margin: auto;
+    background-color: lightyellow;
+}
+/* 14 - Fer que quan passis damunt un h2, li posi un fons blau amb transició de 1 segon*/
+h2:hover{
+    background-color: blue;
+    transition-delay: 1s;
+}
+/* 15 - Fer que la primera lletra de l'element amb id 'special' sigui de color blau i amb font de 50px*/
+#special::first-letter{
+color: blue;
+font-size: 50px;
+}
+/* 16 - fer que els inputs de tipus checkbox que estiguin marcats siguin de color vermell*/ 
+input[type="checkbox"]:checked{
+    accent-color: red;
+}

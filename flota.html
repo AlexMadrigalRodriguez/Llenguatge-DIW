@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hundir la flota</title>
+
+    <style>
+        body{
+    background-image: url(./img/flota.jpg);
+    background-size: cover;
+    }
+
+    #botones{
+        width: 20vw;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #titol{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #agua{
+        background-color: white;
+    }
+    #tocado{
+        background-color: orange;
+    }
+    #hundido{
+        background-color: red;
+    }
+
+    #area{
+        background-color:burlywood;
+    }
+
+    button:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    
+    <img id="titol" src="./img/hundir.png" alt="texto">
+
+    <div>
+        <h3 id="agua">Agua</h3>
+        <h3 id="tocado">Tocado</h3>
+        <h3 id="hundido">Hundido</h3>
+    </div>
+
+    <div>
+        <canvas id="canvas1" width="450" height="450"></canvas>
+        <textarea name="area" id="area" cols="55" rows="28"></textarea>
+        <canvas id="canvas2" width="450" height="450"></canvas>
+    </div>
+
+    <div id="botones">
+        <button id="reset" type="reset">RESETAR PARTIDA</button>
+        <button onclick="window.location.href='./index.html'">TORNAR A L'INDEX</button>
+    </div>
+    
+
+    <script src="./flota.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito & display=swap');
+
+:root {
+    --vermell: rgb(163, 47, 47);
+  }
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+#home{
+    color: var(--vermell);
+    font-size: 50px;
+}
+
+.vermell{
+    background-color: var(--vermell);
+}

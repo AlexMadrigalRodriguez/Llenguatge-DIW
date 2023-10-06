@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>katas</title>
+
+    <style>
+        div {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="col-md-4">
+        <label for="nom" class="form-label">Kata 1</label>
+        <input type="text" class="form-control" id="nom" required>
+        <button class="btn btn-primary" type="submit" id="btnNorm">Normalitza</button>
+        <span id="nomNormalitzat"></span>
+    </div>
+
+    <div class="col-md-4">
+        <label for="generaArray" class="form-label">Kata 2</label>
+        <button id="generaArray">Genera</button>
+        <span id="resultatArray"></span>
+        <button class="btn btn-primary" type="submit" id="btnInvert">Inverteix</button>
+        <span id="arrInvert"></span>
+    </div>
+
+    <div>
+        <label for="calculo" class="form-label">Kata 3</label>
+        <input type="number" class="form-control" id="calculo" required>
+        <select class="form-select" id="tipoCalc" required>
+            <option selected disabled value="">Selecciona</option>
+            <option value="1">Circumferencia</option>
+            <option value="2">Area</option>
+            <option value="3">Volum</option>
+        </select>
+        <button id="btnCalc">Calcula</button>
+        <span id="resCalc"></span>
+    </div>
+
+
+    <a href="./index.html">Tornar a l'index</a>
+    <script src="./kataJS.js"></script>
+</body>
+
+</html>
